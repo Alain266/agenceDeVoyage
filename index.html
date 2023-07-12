@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+<head>
+  <title>Agence de Voyage</title>
+  <style>
+    /* Styles CSS pour le site */
+    body {
+      font-family: 'Jost', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    #banner {
+      text-align: center;
+      padding: 40px 0;
+      background-color: #f5f5f5;
+    }
+
+    #banner h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    #destinations {
+      margin-bottom: 40px;
+    }
+
+    .destination {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 20px;
+    }
+
+    .destination img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    #services ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+    #contact form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    #contact form input,
+    #contact form textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    #contact form button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Agence de Voyage Salignac</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="banner">
+      <h2>Bienvenue chez Agence de Voyage Salignac</h2>
+      <p>Découvrez des destinations incroyables à travers le monde.</p>
+      <a href="#" class="cta-button">En savoir plus</a>
+    </section>
+    
+    <section id="destinations">
+      <h2>Destinations populaires</h2>
+      <div class="destination">
+        <img src="dubai-skyline-at-dusk-jpg_header-144981.jpeg" alt="Destination 1">
+        <h3>Dubaï</h3>
+        <p>"Dubaï : une métropole dynamique et luxueuse alliant modernité, gratte-ciel emblématiques et attractions exceptionnelles."</p>
+      </div>
+      <div class="destination">
+        <img src="Tanzanie.jpg" alt="Destination 2">
+        <h3>Tanzanie</h3>
+        <p>"Tanzanie : une destination africaine captivante offrant des safaris inoubliables et des paysages époustouflants, dont le mont Kilimandjaro et le parc national du Serengeti."</p>
+      </div>
+      <!-- Ajoutez plus de destinations ici -->
+    </section>
+    
+    <section id="services">
+      <h2>Nos services</h2>
+      <ul>
+        <li>Réservation de vols</li>
+        <li>Hébergement</li>
+        <li>Visites guidées</li>
+        <li>Assistance 24/7</li>
+      </ul>
+    </section>
+    
+    <section id="contact">
+      <h2>Contactez-nous</h2>
+      <form>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Agence de Voyage Salignac &copy; 2023</p>
+  </footer>
+</body>
+</html>
